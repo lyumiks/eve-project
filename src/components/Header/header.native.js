@@ -25,6 +25,9 @@ class HeaderElement extends HTMLElement {
         return `
             <header>
                 <div class="logo">eve</div>
+                <div>
+                    <input
+                </div>
             </header>
         `.trim();
     }
@@ -44,7 +47,7 @@ class HeaderElement extends HTMLElement {
                 display: flex;
                 align-items: center;
                 height: 100%;
-                padding: 20px;
+                padding: 26px 60px;
             }
 
             .logo {
