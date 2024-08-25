@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
     <title>eve | Home</title>
-</head>
-<body>
-    <eve-header></eve-header>
-</body>
+  </head>
+  <body>
+    <eve-header>
+      <h1 id="logo">eve</h1>
+      <input id="text-events" type="text" placeholder="Pesquisar Eventos" />
+      <input id="local" type="text" placeholder="lugar-automático" />
+      <!-- esse placeholder "lugar-automático" é só para indicar o que precisa ser feito: exibir o local conforme a localização atual do usuário. O texto pode ser apagado dps -->
+      <button id="search-bttn" type="submit" aria-label="icon-search">
+        <img src="./src/imgs/icon-search.png" alt="eve" />
+      </button>
+    </eve-header>
+  </body>
 </html>

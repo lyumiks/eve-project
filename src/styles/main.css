@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  color: #2d3436;
+  background-color: #f7f7f7; }
+
+:root {
+  --primary-color: #0077b6;
+  --secondary-color: #ffba08;
+  --background-color: #f7f7f7;
+  --surface-color: #ffffff;
+  --accent-color: #00b894;
+  --text-color: #2d3436;
+  --muted-text-color: #636e72;
+  --error-color: #d63031;
+  --border-color: #e6e6e6;
+  --poppins-font: Poppins, sans-serif;
+  --poppins-size: 16px;
+  --poppins-line-height: 1.5;
+  --poppins-letter-spacing: 0.3px;
+  --roboto-font: Roboto, sans-serif;
+  --roboto-size: 16px;
+  --roboto-line-height: 1.5;
+  --roboto-letter-spacing: 0.5px; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  color: #2d3436;
+  background-color: #f7f7f7; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif; }
+
+p,
+span,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px; }
+
+button {
+  background-color: #0077b6;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer; }
+  button:hover {
+    background-color: #00b894; }
+
+.alert-error {
+  color: #d63031;
+  background-color: #ffffff;
+  padding: 10px;
+  border-left: 4px solid #d63031; }
+
+.text-muted {
+  color: #636e72; }
+
+#search-bttn {
+  background-color: #0077b6;
+  border-radius: 0px 10px 10px 0px;
+  width: 79px; }
+
+#logo {
+  color: #0077b6;
+  padding-left: 40px;
+  padding-right: 80px; }
+
+eve-header {
+  display: flex;
+  box-shadow: 0px 0px 5px 0px #dee2e6;
+  padding: 20px 10px 20px; }
+
+#text-events {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px 0px 0px 10px;
+  width: 380px;
+  padding-left: 20px; }
+
+#local {
+  width: 380px;
+  padding-left: 20px; }
+
+/*# sourceMappingURL=main.css.map */

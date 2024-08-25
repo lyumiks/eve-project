@@ -32,7 +32,7 @@ $accent: #00b894;
 $text: #2d3436;
 $muted-text: #636e72;
 $error: #d63031;
-$border: #E6E6E6;
+$border: #e6e6e6;
 
 // Tipografia - Poppins
 $poppins-font: "Poppins", sans-serif;
@@ -130,4 +130,35 @@ button {
 
 .text-muted {
   color: $muted-text;
+}
+
+#search-bttn {
+  background-color: $primary;
+  border-radius: 0px 10px 10px 0px;
+  width: 79px;
+}
+
+#logo {
+  color: $primary;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+eve-header {
+  display: flex;
+  box-shadow: 0px 0px 5px 0px #dee2e6;
+  padding: 20px 10px 20px;
+}
+
+#text-events {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px 0px 0px 10px;
+  width: 380px;
+  padding-left: 20px;
+}
+
+#local {
+  width: 380px;
+  padding-left: 20px;
 }
