@@ -162,3 +162,34 @@ eve-header {
   width: 380px;
   padding-left: 20px;
 }
+
+#h2Titulo {
+  padding-bottom: 30px;
+  padding: 50px 90px;
+}
+
+.bodyEve {
+  padding: 0px 90px;
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+}
+
+#selectData,
+#selectTipo {
+  width: 158px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 44px;
+  background-color: $background;
+  border: none;
+}
+
+#selectClassificarPor {
+  background-color: $primary;
+  color: $surface;
+  border-radius: 10px;
+  padding: 10px;
+  height: 44px;
+  border: none;
+}
